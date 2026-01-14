@@ -24,6 +24,46 @@ import {
   LucideIcon,
 } from "lucide-react";
 
+export const features = [
+  {
+    title: "Trustworthy and Verified Listings",
+    description: "Discover the best rental options with user reviews and ratings",
+    linkText: "Explore",
+    linkHref: "/explore",
+  },
+  {
+    title: "Browse Rental Listings with Ease",
+    description: "Get access to your reviews and ratings for a better understanding of the rental options",
+    linkText: "Search",
+    linkHref: "/search",
+  },
+  {
+    title: "Simplify Your Rental Search with Advanced",
+    description: "Find trustworthy and verified rental listings to ensure a hassle free-experience",
+    linkText: "Discover",
+    linkHref: "/discover",
+  }
+]
+
+export const discoverContent = [{
+  imageSrc: "/landing-icon-wand.png",
+  title: "Search for Properties",
+  description: "Browse through our extensive collection of rental properties in your desired location."
+},
+{
+  imageSrc: "/landing-icon-calendar.png",
+  title: "Book Your Rental",
+  description: "Once you've found the perfect rental property, easily book it online with just a few clicks."
+},
+{
+  imageSrc: "/landing-icon-heart.png",
+  title: "Enjoy Your New Home",
+  description: "Move into your new rental property and start enjoying your dream home."
+}
+]
+
+
+
 export enum AmenityEnum {
   WasherDryer = "WasherDryer",
   AirConditioning = "AirConditioning",
